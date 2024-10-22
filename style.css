@@ -1,70 +1,57 @@
-html {
-  height: 100%;
-  width: 100%;
-  background-color: lightblue;
+* {   /* Reset the margin and padding for all the elements */
+   margin: 0px;
+   padding: 0px;
 }
 
-h2 {
+body {
+  font-family: 'Overpass', sans-serif; 
+  text-align: center; 
+  color: #003046; /* Default text color */
+  background-color: #F9E9EC;/* Background color */
+}
+
+h1 {
+  background-color: #FAC748;
+  color:#1D2F6F;
+  text-align: center; 
+  font-family: 'Playfair Display', serif;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 60%;
   text-align: center;
+  font-family: 'Overpass', sans-serif; 
 }
 
-/* #heading will hold styling code that only pertains to items on the HTML file with the ID heading */
-nav {
-  background-color: white;
-  color: black;
-  padding: 5px;
+/* STYLE TEXT */
+p {
+  font-size: 1.2em;
+  text-align: left; 
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#fact {
+  font-weight: 700;
+  font-size: 1.5em;
   text-align: center;
+  margin-top: 1.5em;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: navy;
+h1 {
+  font-size: 2.2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
-li {
-  float: left;
-}
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 
-/* .city1 will hold styling code that pertains to all items on the HTML file with the class city1, regardless of their tag */
-.city1 {
-  background-color: tomato;
-  color: white;
+/* STYLE BUTTON */
+button {
+  background: #FAC748;
   padding: 10px;
-} 
-
-/* .city2 will hold styling code that pertains to all items on the HTML file with the class city2, regardless of their tag */
-.city2 {
-  background-color: lightsalmon;
-  color: white;
-  padding: 10px;
-} 
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: auto;
-  border: solid 5px;
-}
-
-.image1 {
-  border-color: white;
-  padding: 5px;
-}
-
-.image2 {
-  border-color: white;
-  padding: 20px;
+  font-family: 'Playfair Display', serif;
+  font-size: 1em;
+  border-style: none;
 }
